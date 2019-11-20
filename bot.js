@@ -4,12 +4,21 @@ const token = '1028351135:AAFkvqp1bphmdEFy_P2fnDLCsshsjGrzl9M';
 // Bot Pruebas
 //const token = '1007840862:AAGMRVGHB4Qx28JzojnCupHW7A79nAmKTrs';
 const bot = new TelegramBot(token, {polling: true});
+// ID DEL CHAT DE POKEMON -1001293261708
+// ID DEL CHAT DE PRUEBA -1001310721280
 
 // ERROR DEL BOT
 
 bot.on('polling_error', function (error) {
     console.log(error);
 });
+
+// SACAR EL ID DEL GRUPO DONDE QUERAMOS QUE ACTUE EL BOT
+
+// bot.onText(/^\/chatid/, (msg) => {
+//     const chatId = msg.chat.id;
+//     console.log(chatId)
+// });
 
 // MENSAJE DE BIENVENIDA
 
@@ -88,19 +97,15 @@ bot.onText(/^\/borrar/, (msg) => {
 
 /////////// CONTADOR PARA QUE MANDE LINK DEL GRUPO
 
-function intervalFunc() {
-    bot.sendMessage(453984284, "hola");
-}
-   //setInterval(intervalFunc, 3000);
+// function intervalFunc() {
+//     bot.sendMessage(-1001310721280, "Comparte con tus amigos el grupo");
+// }
+//    setInterval(intervalFunc, 3000);
 
-/////////// CONTADOR PARA QUE MANDE LINKS A AMAZON
+// /////////// CONTADOR PARA QUE MANDE LINKS A AMAZON
 
-function intervalFunc() {
-    bot.sendMessage(-1001310721280, "hola");
-}
-//  setInterval(intervalFunc, 3000);
+// function intervalFunc() {
+//     bot.sendMessage(-1001310721280, "hola");
+// }
+// //  setInterval(intervalFunc, 3000);
 
-bot.onText(/^\/chatid/, (msg) => {
-    const chatId = msg.chat.id;
-    console.log(chatId)
-});
