@@ -4,7 +4,7 @@
   "description": "BOT para grupos de telegram",
   "main": "bot.js",
   "scripts": {
-    "start": "JavaScript/bot.js"
+    "start": "JavaScript> node bot.js"
   },
   "author": "Héctor Fraguas",
   "license": "ISC",
