@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "BOT para grupos de telegram",
   "main": "bot.js",
+  "scripts": {
+    "start": "JavaScript/bot.js"
+  },
   "author": "Héctor Fraguas",
   "license": "ISC",
   "dependencies": {
