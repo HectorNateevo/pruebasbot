@@ -28,24 +28,6 @@ bot.onText(/^\/hola/, (msg) => {
 bot.onText(/^\/Hola/, (msg) => {
     bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
 });
-bot.onText(/^\/holaa/, (msg) => {
-    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
-});
-bot.onText(/^\/Holaa/, (msg) => {
-    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
-});
-bot.onText(/^\/holaaa/, (msg) => {
-    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
-});
-bot.onText(/^\/Holaaa/, (msg) => {
-    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
-});
-bot.onText(/^\/buenas/, (msg) => {
-    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
-});
-bot.onText(/^\/Buenas/, (msg) => {
-    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
-});
 
 /////////// EVENTO DE BIENVENIDA Y DESPEDIDA
 
@@ -108,4 +90,3 @@ bot.onText(/^\/borrar/, (msg) => {
 //     bot.sendMessage(-1001310721280, "hola");
 // }
 // //  setInterval(intervalFunc, 3000);
-
