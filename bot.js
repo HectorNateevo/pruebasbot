@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-// PokeBot
+/// PokeBot
 //const token = '1028351135:AAFkvqp1bphmdEFy_P2fnDLCsshsjGrzl9M';
 // Bot Pruebas
 const token = '1007840862:AAGMRVGHB4Qx28JzojnCupHW7A79nAmKTrs';
