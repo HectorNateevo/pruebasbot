@@ -1,8 +1,8 @@
 const TelegramBot = require('node-telegram-bot-api');
 // PokeBot
-const token = '1028351135:AAFkvqp1bphmdEFy_P2fnDLCsshsjGrzl9M';
+//const token = '1028351135:AAFkvqp1bphmdEFy_P2fnDLCsshsjGrzl9M';
 // Bot Pruebas
-//const token = '1007840862:AAGMRVGHB4Qx28JzojnCupHW7A79nAmKTrs';
+const token = '1007840862:AAGMRVGHB4Qx28JzojnCupHW7A79nAmKTrs';
 const bot = new TelegramBot(token, {polling: true});
 // ID DEL CHAT DE POKEMON -1001293261708
 // ID DEL CHAT DE PRUEBA -1001310721280
@@ -22,10 +22,10 @@ bot.on('polling_error', function (error) {
 
 // MENSAJE DE BIENVENIDA
 
-bot.onText(/^\/hola/, (msg) => {
+bot.onText(/^\hola/, (msg) => {
     bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
 });
-bot.onText(/^\/Hola/, (msg) => {
+bot.onText(/^\Hola/, (msg) => {
     bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
 });
 
