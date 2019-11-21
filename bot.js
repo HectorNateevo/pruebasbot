@@ -28,6 +28,36 @@ bot.onText(/^\hola/, (msg) => {
 bot.onText(/^\Hola/, (msg) => {
     bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
 });
+bot.onText(/^\holaa/, (msg) => {
+    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
+});
+bot.onText(/^\Holaa/, (msg) => {
+    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
+});
+bot.onText(/^\holaaa/, (msg) => {
+    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
+});
+bot.onText(/^\Holaaa/, (msg) => {
+    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
+});
+bot.onText(/^\hola!/, (msg) => {
+    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
+});
+bot.onText(/^\Hola!/, (msg) => {
+    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
+});
+bot.onText(/^\holaa!/, (msg) => {
+    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
+});
+bot.onText(/^\Holaa!/, (msg) => {
+    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
+});
+bot.onText(/^\holaaa!/, (msg) => {
+    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
+});
+bot.onText(/^\Holaaa!/, (msg) => {
+    bot.sendMessage(msg.chat.id, "Hola " + msg.from.first_name + ", que tal estas?");
+});
 
 /////////// EVENTO DE BIENVENIDA Y DESPEDIDA
 
