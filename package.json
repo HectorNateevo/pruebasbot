@@ -4,7 +4,7 @@
   "description": "Bot para telegram grupo pokemon intercambios",
   "main": "bot.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node-telegram-bot-api": "^0.40.0",
     "nodemon": "^2.0.0"
   },
